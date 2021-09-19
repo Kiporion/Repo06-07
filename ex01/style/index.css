@@ -1,0 +1,33 @@
+h1 {
+  color: crimson;
+  text-align: center;
+}
+
+.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card_image {
+  width: 100%;
+  display: block;
+}
+
+.card_title {
+  color: aqua;
+  text-align: left;
+  line-height: 1.25;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.card_desc {
+  line-height: 1.25;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
